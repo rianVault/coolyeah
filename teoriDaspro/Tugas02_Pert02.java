@@ -20,5 +20,6 @@ public class Tugas02_Pert02 {
       totalSisaLuasTanah = ((panjangTanah * lebarTanah) - (luasKolamLingkaran + luasKolamPersegi));
 
       System.out.println("Total sisa luas tanah Anda: " + totalSisaLuasTanah);
+      // hebat
   }
 }
