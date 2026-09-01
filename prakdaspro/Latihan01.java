@@ -4,6 +4,6 @@ public class Latihan01 {
     System.out.println("Halo, nama saya Bahriansyah Herlambang!");
     
     System.out.print("\nBelajar Java itu mudah!");
-    System.out.print("\nSemakin sering mencoba, semakin jago.");
+    // System.out.print("\nSemakin sering mencoba, semakin jago.");
   }
 }
