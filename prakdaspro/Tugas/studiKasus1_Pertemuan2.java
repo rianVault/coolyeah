@@ -1,8 +1,8 @@
-package teoriDaspro;
+package Tugas;
 
 import java.util.Scanner;
 
-public class Tugas01_Pert02 {
+public class studiKasus1_Pertemuan2 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
@@ -11,6 +11,8 @@ public class Tugas01_Pert02 {
 
     System.out.print("Masukkan gaji pokok Anda: ");
     gajiPokok = input.nextInt();
+    System.out.print("Masukkan tunjangan per anak per satu bulan: ");
+    tunjanganPerAnak = input.nextInt();
     System.out.print("Masukkan jumlah anak Anda: ");
     jumlahAnak = input.nextInt();
 

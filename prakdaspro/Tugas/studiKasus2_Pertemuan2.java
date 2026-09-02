@@ -1,18 +1,23 @@
-package teoriDaspro;
+package Tugas;
 
 import java.util.Scanner;
 
-public class Tugas02_Pert02 {
+public class studiKasus2_Pertemuan2 {
   public static void main(String[] args) {
-      Scanner input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
 
-      int panjangTanah, lebarTanah, luasKolamPersegi, sisiKolamPersegi = 2;
-      double pi = 3.14, totalSisaLuasTanah, luasKolamLingkaran, diameterKolamLingkaran = 5, jariJariLingkaran;
+      int panjangTanah, lebarTanah, luasKolamPersegi, sisiKolamPersegi;
+      double pi = 3.14, totalSisaLuasTanah, luasKolamLingkaran, diameterKolamLingkaran, jariJariLingkaran;
 
       System.out.printf("Masukkan total panjang tanah: ");
       panjangTanah = input.nextInt();
       System.out.printf("Masukkan total lebar tanah: ");
       lebarTanah = input.nextInt();
+      System.out.printf("Masukkan sisi kolam persegi: ");
+      sisiKolamPersegi = input.nextInt();
+      System.out.printf("Masukkan diameter kolam lingkaran: ");
+      diameterKolamLingkaran = input.nextInt();
+      
 
       jariJariLingkaran = diameterKolamLingkaran / 2;
       luasKolamLingkaran = pi * jariJariLingkaran * jariJariLingkaran;
