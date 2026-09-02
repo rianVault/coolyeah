@@ -1,4 +1,4 @@
-public class PertanyaanTipeData07 {
+public class ContohOperator07 {
   public static void main(String[] args) {
     int a = 60;
     int b = 20;
