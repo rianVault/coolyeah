@@ -5,14 +5,13 @@ public class PemilihanIf07 {
     Scanner sc = new Scanner(System.in);
 
     System.out.println("--- Cetak KRS SIAKAD ---");
-    System.out.print("Apakah UKT sudah lunas? (true/false): ");
-    boolean uktLunas = sc.nextBoolean();
+    System.out.print("Masukkan jumlah SKS: ");
+    int jumlahSks = sc.nextInt();
 
-    if (uktLunas) {
-      System.out.println("Pembayaran UKT terverifikasi");
-      System.out.println("Silakan cetak KRS dan minta tanda tangan DPA");
+    if (jumlahSks > 24) {
+      System.out.println("Melebihi Batas");
     } else {
-      System.out.println("Registrasi ditolak. Silakan lunasi UKT terlebih dahulu");
+      System.out.println("KRS valid");
     }
   }
 }
